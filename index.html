@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="CSS_File_of_the_game.css" />
+    <link
+      rel="Website Icon"
+      type="png"
+      href="https://cdn-icons-png.flaticon.com/512/6831/6831874.png"
+    />
+  </head>
+  <body>
+    <header>
+      <!--//**Main page, with image and title**//-->
+      <img
+        src="https://cdn-icons-png.flaticon.com/512/6831/6831874.png"
+        class="logo"
+      />
+      <h1>Rock-Paper-Scissors</h1>
+    </header>
+    <main>
+      <section class="choices">
+        <div class="buttonRock" id="buttonRock">
+          <input
+            type="image"
+            src="https://wrpsa.com/wp-content/uploads/2021/08/rock.png"
+            alt="Rock"
+            onclick="Choice1()"
+          />
+        </div>
+        <div class="buttonPaper" id="buttonPaper">
+          <input
+            type="image"
+            src="https://wrpsa.com/wp-content/uploads/2021/08/paper.png"
+            alt="Paper"
+            onclick="Choice2()"
+          />
+        </div>
+        <div class="buttonScissors" id="buttonScissors">
+          <input
+            type="image"
+            src="https://wrpsa.com/wp-content/uploads/2021/08/scissors.png"
+            alt="Scissors"
+            onclick="Choice3()"
+          />
+        </div>
+      </section>
+
+      <section id="result-container">
+        <p class="Result" id="Result"></p>
+        <button id="restartButton" onclick="RestartGame()">Play Again</button>
+      </section>
+    </main>
+    <script src="JS_File_of_the_game.js"></script>
+  </body>
+</html>
