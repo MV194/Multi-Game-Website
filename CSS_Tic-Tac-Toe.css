@@ -1,12 +1,34 @@
 /*In Development*/
 
 body{
-    margin:6px
+    margin:6px;
+    padding:6px;
+    overflow-x: hidden;
 }
+
 .Title{
     padding-left:43%;
     padding-right:20% 
 }
+
+.main-page-button{
+    padding-left: 5%; 
+    padding-top: 1%;
+}
+
+.main-page-button-shell{
+background-color: red;
+color:white;
+width:50px;
+height:auto;
+font-size: 20px;
+text-align: center;
+}
+
+.main-page-button-shell:hover{
+    cursor:pointer;
+}
+
 .grid{
     display: grid;
     grid-template-columns: auto auto auto;
@@ -15,24 +37,60 @@ body{
     padding-left:40%;
     padding-right:75%;
 }
+
 .grid-item{
     background-color: white;
     border-color: black;
     border:2px solid;
 }
+
 .grid-item:hover{
     cursor:pointer;
 
 }
+
 .rules{
     text-align: center;
     font-size: 50px;
     background-color: red;
 }
+
+.rules:hover{
+    cursor:pointer;
+}
+
 .button-rules{
     padding-left: 45%;
     padding-right:75%;
     padding-top:20px;
     width:50px;
     height:auto;
+}
+
+.Rules-Modal {
+    display: none; 
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.Rules-Modal div {
+    background-color: white;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.close-button {
+    float: right;
+    font-size: 24px;
+    cursor: pointer;
 }
