@@ -8,9 +8,17 @@
         <link rel="stylesheet" href="CSS_Tic-Tac-Toe.css">
         <link rel="Website Icon" type="png" href="https://w7.pngwing.com/pngs/313/835/png-transparent-square-meter-square-meter-symbol-miscellaneous-circle-tic-tac-toe.png">
         <h1 class="Title" style="color:brown;"><span style="color:black">X </span>Tic Tac Toe<span style="color:red"> O</span></h1>
+        
     </head>
     <body>
-        <div class="grid">
+        <div class="main-page-button"> <!--return home button-->
+            <div>
+                <form action="Main page HTML.html">
+                    <button class="main-page-button-shell">◄</button> 
+                </form>
+            </div>
+        </div>
+        <div class="grid"> <!--Grid-->
             <div class="grid-item" style="border-left:0px; border-top:0px" type="button"></div>
             <div class="grid-item" style="border-top: 0px;"></div>
             <div class="grid-item" style="border-right: 0px; border-top:0px"></div>
@@ -22,14 +30,15 @@
             <div class="grid-item" style="border-right: 0px; border-bottom:0px"></div>
         </div>
         
-        <div class="button-rules"><button id="Rules" class="rules">Rules</button></div>
-        <!--<div id="Rules-Modal" class="Rules-Modal">
+        <div class="button-rules"><button id="Rules" class="rules">Rules</button></div> <!--modal-->
+        <div id="Rules-Modal" class="Rules-Modal">
             <div>
                 <span class="close-button">&times</span>
-                <p>Text in a modal</p>
+                <b>Rules</b>
+                <p>To start the game, chose if you want to be an "X" or an "O" (usually "x" goes first). After choosing, click on the square in 3x3 grid, where you'd like to place your symbol. The goal is to make a horizontal, vertical, or a diagonal line with your symbol.</p>
             </div>
-        </div>-->
+        </div>
         
-
+        <script src="JS_Tic-Tac-Toe.js"></script>
     </body>
 </html>
