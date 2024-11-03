@@ -1,16 +1,32 @@
-<html>
+<!DOCTYPE html>
+<HTML lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>GameNest</title>
-        <link
-          rel="Website Icon"
-          type="png"
-          href="PossibleLogo.png"
-        />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <title>Connect 4 + Tic-Tac-Toe</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
     </head>
     <body>
-        <a href="Tic-Tac-Toe.html">Tic-Tac-Toe</a>
-        <a href=RockPaperScissors.html>Rock Paper Scissors</a>
+        <header class="header">
+            <h1>Boujour!</h1> 
+            <h1>Voici mon jeu qui est le jeu Connect 4!</h1>
+        </header>
+        <article class="article">
+            <section class="section1">
+                <p>Voici les règles le jeu: <a href="instructions.html" target="_blank">Instructions</a></p>
+            </section>
+        </article>
+        <h1>Connect 4</h1>
+        <br>
+        </br>
+        <div id="grille1" class="grille1">
+            
+        </div>
+        <h2 id="gagnant"></h2>
+        <br>
+        <footer>
+            <button class="recommencerJeu" onClick="window.location.reload()">Recommencer Jeu</button>
+        </footer>
     </body>
-</html>
+</HTML>
