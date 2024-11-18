@@ -1,35 +1,40 @@
 <!DOCTYPE html>
-<HTML lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-        <title>Connect 4 + Tic-Tac-Toe</title>
-        <link rel="stylesheet" href="Connect4.css">
-        <link rel="Website Icon" type="png" href="PossibleLogo.png">
-        <script src="Connect4.js"></script>
-    </head>
-    <body>
-        <header class="header">
-            <h1>Boujour!</h1> 
-            <h1>Voici mon jeu qui est le jeu Connect 4!</h1>
-        </header>
-        <article class="article">
-            <section class="section1">
-                <p>Voici les règles le jeu: <a href="Connect4-instructions.html" target="_blank">Instructions</a></p>
-                <br>
-                <p>Revenir à l'accueil: <a href="index.html">L'accueil</a></p>
-            </section>
-        </article>
-        <h1>Connect 4</h1>
-        <br>
-        </br>
-        <div id="grille1" class="grille1">
-            
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Connect 4 + Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="Connect4.css">
+    <link rel="Website Icon" type="png" href="PossibleLogo.png">
+</head>
+<body>
+    <header class="header">
+        <h1>Bonjour!</h1>
+        <h1>Voici mon jeu qui est le jeu Connect 4!</h1>
+    </header>
+    <article class="article">
+        <section class="section1">
+            <p>Voici les règles du jeu: <a href="Connect4-instructions.html" target="_blank">Instructions</a></p>
+            <p>Revenir à l'accueil: <a href="index.html">L'accueil</a></p>
+        </section>
+    </article>
+    <h1>Connect 4</h1>
+    <div class="button-rules"><button id="Rules" class="rules">Comment Jouer</button></div> <!--modal-->
+    <div id="Rules-Modal" class="Rules-Modal">
+        <div>
+            <span class="close-button">&times</span>
+            <b>Comment jouer</b>
+            <p>Connect 4 est un jeu qui vous permet de relever le plaisir d’un jeu stratégique contre un ami. Ça fonctionne en laissant tomber un jeton rouge ou jaune dans la grille. Le but du jeu est d’être le premier de former une rangée de 4 jetons de sa propre couleur horizontalement, verticalement ou diagonalement. Vous pouvez bloquer la rangée former de votre l’adversaire.</p>
+            <br>
+            <p>Pour changer le mode de jeu (IA vs joueur ou joueur vs joueur) il faut sélectionner le mode de jeu du menu déroulant et cliquer sur le bouton "En Jeu". Par défaut c'est joueur vs joueur, et le joueur commence le jeu si c'est joueur vs IA.</p>
         </div>
-        <h2 id="gagnant"></h2>
-        <br>
-        <footer>
-            <button class="recommencerJeu" onClick="window.location.reload()">Recommencer Jeu</button>
-        </footer>
-    </body>
-</HTML>
+    </div>
+    <div id="options"></div>
+    <div id="grille1" class="grille1"></div>
+    <h2 id="gagnant"></h2>
+    <footer>
+        <button class="recommencerJeu" onClick="resetJeu()">Recommencer Jeu</button>
+    </footer>
+    <script src="Connect4.js"></script>
+</body>
+</html>
