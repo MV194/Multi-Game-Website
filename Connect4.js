@@ -45,12 +45,12 @@ function initialiserModal() {
 function preparerOptions() {
     const modeSelection = document.createElement("div");
     modeSelection.innerHTML = `
-        <label for="mode">Mode de Jeu:</label>
+        <label for="mode">Game mode:</label>
         <select id="mode">
-            <option value="2-players">2 Joueurs</option>
-            <option value="player-vs-ai">Joueur vs IA</option>
+            <option value="2-players">2 Players</option>
+            <option value="player-vs-ai">Player vs AI</option>
         </select>
-        <button onclick="changerMode(); resetJeu()">En Jeu</button>
+        <button onclick="changerMode(); resetJeu()">Game on!</button>
     `;
     document.getElementById("options").append(modeSelection);
 }
@@ -302,16 +302,16 @@ function preparerGagnant(l, c) {
     if (modeJeu === "player-vs-ai") {
         // AI vs Player mode
         if (grille1[l][c] === joueurRouge) {
-            gagnant.innerText = "Joueur a gagné !!!";
+            gagnant.innerText = "Player Wins !!!";
         } else if (grille1[l][c] === joueurJaune) {
-            gagnant.innerText = "Ordinateur a gagné !!!";
+            gagnant.innerText = "Computer Wins !!!";
         }
     } else {
         // Player vs Player mode
         gagnant.innerText =
             grille1[l][c] === joueurRouge
-                ? "Joueur Rouge a gagné !!!"
-                : "Joueur Jaune a gagné !!!";
+                ? "Red Player Wins !!!"
+                : "Yellow Player Wins !!!";
     }
     
     jeuTerminer = true;
