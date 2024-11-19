@@ -3,37 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>Connect 4 + Tic-Tac-Toe</title>
+    <title>Connect 4</title>
     <link rel="stylesheet" href="Connect4.css">
     <link rel="Website Icon" type="png" href="PossibleLogo.png">
 </head>
 <body>
     <header class="header">
-        <h1>Bonjour!</h1>
-        <h1>Voici mon jeu qui est le jeu Connect 4!</h1>
+        <h1>Hello!</h1>
+        <h1>Welcome to the game of Connect 4!</h1>
     </header>
     <article class="article">
         <section class="section1">
-            <p>Voici les règles du jeu: <a href="Connect4-instructions.html" target="_blank">Instructions</a></p>
-            <p>Revenir à l'accueil: <a href="index.html">L'accueil</a></p>
+            <p>Rules/How to play: <a href="Connect4-instructions.html" target="_blank">Instructions</a></p>
+            <p>Return to home page: <a href="index.html">Home page</a></p>
         </section>
     </article>
     <h1>Connect 4</h1>
-    <div class="button-rules"><button id="Rules" class="rules">Comment Jouer</button></div> <!--modal-->
+    <div class="button-rules"><button id="Rules" class="rules">How to play</button></div> <!--modal-->
     <div id="Rules-Modal" class="Rules-Modal">
         <div>
             <span class="close-button">&times</span>
-            <b>Comment jouer</b>
-            <p>Connect 4 est un jeu qui vous permet de relever le plaisir d’un jeu stratégique contre un ami. Ça fonctionne en laissant tomber un jeton rouge ou jaune dans la grille. Le but du jeu est d’être le premier de former une rangée de 4 jetons de sa propre couleur horizontalement, verticalement ou diagonalement. Vous pouvez bloquer la rangée former de votre l’adversaire.</p>
+            <b>How to play</b>
+            <p>Connect 4 is a game that allows you to experience the pleasure of a strategic game against a friend. It works by dropping a red or yellow token into the grid. The goal of the game is to be the first to form a row of 4 tokens of your own color horizontally, vertically or diagonally. You can block your opponent's formation row.</p>
             <br>
-            <p>Pour changer le mode de jeu (IA vs joueur ou joueur vs joueur) il faut sélectionner le mode de jeu du menu déroulant et cliquer sur le bouton "En Jeu". Par défaut c'est joueur vs joueur, et le joueur commence le jeu si c'est joueur vs IA.</p>
+            <p>To change the game mode (AI vs player or player vs player) you must select the game mode from the drop-down menu and click on the "Game on!" button. By default it is player vs player, and the player starts the game if it is player vs AI.</p>
         </div>
     </div>
     <div id="options"></div>
     <div id="grille1" class="grille1"></div>
     <h2 id="gagnant"></h2>
     <footer>
-        <button class="recommencerJeu" onClick="resetJeu()">Recommencer Jeu</button>
+        <button class="recommencerJeu" onClick="resetJeu()">Restart</button>
     </footer>
     <script src="Connect4.js"></script>
 </body>
