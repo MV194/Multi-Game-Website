@@ -1,9 +1,9 @@
 Games ideas:
-- [] Connect 4 
+-[✔] Connect 4 
 
--[] Tic-Tac-Toe 
+-[✔] Tic-Tac-Toe 
 
--[] Rock Paper Scissors  
+-[✔] Rock Paper Scissors  
 
 -[] Battleship
 
@@ -11,7 +11,11 @@ Games ideas:
 
 -[] Snake
 
--[] Card games(Solitaire, BlackJack, Hola, Durak)
+-[] Card games:
+        - [] Solitaire
+        - [] BlackJack
+        - [] Hola
+        - [] Durak
 
 
 
