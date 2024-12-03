@@ -1,3 +1,7 @@
-a, img{
+/*NavBar*/
+a{
+  display: inline;
+}
+img{
   display: inline;
 }
