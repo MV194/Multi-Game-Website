@@ -8,8 +8,7 @@ li{
   display: inline;
   margin: 20%;
 }
-
-a:hover{
+li > a:hover{
   display: inline;
-  background-color: aliceblue;
+  background-color: rgb(0, 0, 0);
 }
