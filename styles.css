@@ -6,5 +6,10 @@ ul{
 }
 li{
   display: inline;
+  margin: 20%;
 }
 
+a:hover{
+  display: inline;
+  background-color: aliceblue;
+}
