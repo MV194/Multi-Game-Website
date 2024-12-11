@@ -20,7 +20,7 @@ li{
   text-decoration: none;
   font-size: 17px;
   text-align: center;
-  margin: 0 auto;
+  vertical-align: middle;
   padding: 14px 16px;
 }
 .nav:hover{
