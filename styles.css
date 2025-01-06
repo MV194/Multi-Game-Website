@@ -4,7 +4,7 @@ header{
   position: sticky;
   top: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: navy;
 }
 ul{
   height: fit-content;
