@@ -43,16 +43,40 @@ function handlePlayerMove(cell, index) {
     }
 }
 
-// Simple AI
+// AI (comments of code are in development DO NOT DELETE)
 function handleComputerMove() {
     if (!isGameActive) return;
 
+    //let PossibleWinMoves = [
+        //[0, 1], [0, 1], [1, 2], //wins for spaces 012
+        [//wins for spaces 345
+        //wins for spaces 678
+    //];
     let emptyCells = gameboard.map((val, index) => val === "" ? index : null).filter(index => index !== null);
-    let randomIndex = emptyCells[Math.floor(Math.random() * emptyCells.length)];
 
-   
-    gameboard[randomIndex] = computer;
-    gridItems[randomIndex].textContent = computer;
+    //AI Move value
+    //switch(gameboard){
+        //case ["", "", "", "", "", "", "", "", ""];
+            //let MoveValue = 1;
+            //break;
+        //case ["", "", "", "", "", "", "", "", ""];
+            //let MoveValue = 2;
+            //break;
+        //case ["", "", "", "", "", "", "", "", ""];
+            //let MoveValue = 3;
+            //break;
+        //case ["", "", "", "", "", "", "", "", ""];
+            //let MoveValue = 4;
+            //break;
+       //case ["", "", "", "", "", "", "", "", ""];
+            //let MoveValue = 5;
+            //break;
+        
+    //}
+    let CpuMove = emptyCells[Math.floor(Math.random() * emptyCells.length)];
+    
+    gameboard[CpuMove] = computer;
+    gridItems[CpuMove].textContent = computer;
 
     // Delay win check to allow the board to update visually
     setTimeout(() => {
