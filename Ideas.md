@@ -1,22 +1,22 @@
 Games ideas:
--[] Connect 4 
+-[ ] Connect 4 
 
--[] Tic-Tac-Toe 
+-[ ] Tic-Tac-Toe 
 
--[] Rock Paper Scissors  
+-[ ] Rock Paper Scissors  
 
--[] Battleship
+-[ ] Battleship
 
--[] Maze
+-[ ] Maze
 
--[] Snake
+-[ ] Snake
 
--[] Card games:
-        - [] Solitaire
-        - [] BlackJack
-        - [] Hola
-        - [] Durak
--[] Russian Roulette
+-[ ] Card games:
+        - [ ] Solitaire
+        - [ ] BlackJack
+        - [ ] Hola
+        - [ ] Durak
+-[ ] Russian Roulette
 
 
 
