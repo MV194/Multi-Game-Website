@@ -1,5 +1,5 @@
 Games ideas:
-- [ ] Connect 4 
+- [x] Connect 4 
 
 - [ ] Tic-Tac-Toe 
 
@@ -12,10 +12,15 @@ Games ideas:
 - [ ] Snake
 
 - [ ] Card games:
+
         - [ ] Solitaire
+      
         - [ ] BlackJack
+      
         - [ ] Hola
+      
         - [ ] Durak
+      
 - [ ] Russian Roulette
 
 
