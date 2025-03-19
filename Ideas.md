@@ -11,15 +11,13 @@ Games ideas:
 
 - [ ] Snake
 
-- [ ] Card games:
-
-        - [ ] Solitaire
+- [ ] Solitaire
       
-        - [ ] BlackJack
+- [ ] BlackJack
       
-        - [ ] Hola
+- [ ] Hola
       
-        - [ ] Durak
+- [ ] Durak
       
 - [ ] Russian Roulette
 
