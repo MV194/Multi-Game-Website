@@ -1,9 +1,9 @@
 Games ideas:
--[✔] Connect 4 
+-[] Connect 4 
 
--[✔] Tic-Tac-Toe 
+-[] Tic-Tac-Toe 
 
--[✔] Rock Paper Scissors  
+-[] Rock Paper Scissors  
 
 -[] Battleship
 
